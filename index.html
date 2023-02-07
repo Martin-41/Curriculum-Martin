@@ -10,18 +10,45 @@
 
     <!--Open Graph Data-->
     <meta property="og:title" content="Mi Curriculum Vitae"/>
-    <meta property="og:type" content="articule"/><!--Aqui se especifica que clase de pagina es-->
+    <meta property="og:type" content="Articulo"/>
     <meta property="og:url" content="http://ejemplo"/><!--Aqui se coloca la url de la pagina-->
     <meta property="og:image" content="http://imagen ejemplo"/><!--para colocar una imagen-->
     <meta property="og:description" content="En esta página se encuentran detallados todos mis datos personales, estudios y experiencia laboral"/>
 
 </head>
 <body>
-    <h1>Curriculum de Martín Barrios</h1>
+    
+    <header>
+        <h1>Curriculum de Martín Barrios</h1>
     <img src="C:\Users\gabim\OneDrive\Escritorio\Proyecto Final - Curso\yo.jpg" alt="Mi perfil" 
     height="400px" width="400px"/>
+    </header>
 
+    <nav>
+        <a href="#Java">Presentación</a> |
+        <a href="#Python">Estudios realizados</a> |
+        <a href="#Javascript">Experiencia laboral</a>
+    </nav>
 
+    <footer>
+        
+        <div class="contenedor">
+            <h2>Login</h2>
+            <form id="forma" name="forma" method="post">
+                <div class="elemento">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" id="usuario" name="usuario" aria-required="true"/>
+                </div>
+                <div class="elemento">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" aria-required="true"/>
+                </div>
+                <div class="elemento">
+                    <input type="submit" value="Enviar"/>
+                </div>
+            </form>
+        </div>
+    </footer>
 
 
     <script src="JS\accion.js"></script>
