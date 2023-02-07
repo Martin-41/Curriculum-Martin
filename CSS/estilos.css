@@ -1,0 +1,8 @@
+h1 {
+    font-family: 'Trocchi', serif;
+    border: 5px solid black;
+    margin: 30px;
+    padding: 5px;
+    font-weight: bold;
+    color: grey;
+}
