@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     height: auto;
     min-height: 100%;
@@ -6,19 +10,69 @@ body{
     background: linear-gradient(#96ccee, #3d667b, black);
 }
 
-.titulo{
-    color: white;
+#titulo{
+    color: #1a4154;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
     border: 5px double #3d667b;
     box-sizing: border-box;
     margin: auto;
+    margin-top: 20px;
     max-width: 50%;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.imagen {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    max-width: 20%;
+    border-radius: 0 30% 0 30%;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+.movimiento{
+    position: relative;
+    top: 15px;
+    color: white;
+    float: right;
+    max-width: 65%;
+    box-shadow: 1px 0 4px rgb(0,0,0);
+    margin: 15px;
+    padding: 18px;
+    height: 240px;
+    overflow: auto;
 }
 
-.imagen {
-    height: 20%;
-    width: 20%;
-    border-radius: 0 30% 0 30%;
-    margin: 50px;
+h2.subtitulo{
+    position: relative;
+    width: 100%;
+    margin: 0px 5px 5px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 209, 162);
+    text-decoration: underline;
+}
+
+.contenido{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    margin: 10px 5px 15px 5px;
+}
+.contenido1{
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    margin: 5px 5px 5px 50px;
+}
+.linea{
+    color: black;
+    font-size: 5px;
 }
