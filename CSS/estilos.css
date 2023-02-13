@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +26,7 @@ body{
     top: 0;
     left: 0;
 }
+
 .imagen {
     position: relative;
     top: 40px;
@@ -34,6 +36,7 @@ body{
     float: left;
     margin: 5px 5px 5px 5px;
 }
+
 .movimiento{
     position: relative;
     top: 15px;
@@ -72,7 +75,11 @@ h2.subtitulo{
     color: bisque;
     margin: 5px 5px 5px 50px;
 }
-.linea{
-    color: black;
-    font-size: 5px;
+
+hr{
+    width: 70%;
+    height: 2px;
+    border: none;
+    background: blue;
+    margin: auto;
 }
