@@ -1,85 +1,51 @@
+:root{
+    --fondo-1: #96ccee;
+    --fondo-2: #3d667b;
+    --fondo-3: #201e1c;
+    --subtitulo: #f7d1a2;
+    --titulo: #1a4154;
+    --contenido: #ffe4c4;
 
-*{
+}
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 html{
-    height: auto;
-    min-height: 100%;
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
 }
-body{
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 400px;
+    text-align: center;
     background: linear-gradient(#96ccee, #3d667b, black);
 }
-
-#titulo{
-    color: #1a4154;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    border: 5px double #3d667b;
-    box-sizing: border-box;
-    margin: auto;
-    margin-top: 20px;
-    max-width: 50%;
-    padding: 5px;
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-
-.imagen {
-    position: relative;
-    top: 40px;
-    left: 40px;
-    max-width: 20%;
+header img{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    align-self: center;
     border-radius: 0 30% 0 30%;
-    float: left;
-    margin: 5px 5px 5px 5px;
 }
-
-.movimiento{
-    position: relative;
-    top: 15px;
-    color: white;
-    float: right;
-    max-width: 65%;
-    box-shadow: 1px 0 4px rgb(0,0,0);
-    margin: 15px;
-    padding: 18px;
-    height: 240px;
-    overflow: auto;
-}
-
-h2.subtitulo{
-    position: relative;
-    width: 100%;
-    margin: 0px 5px 5px 0px;
+.movimiento {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 20px;
     text-align: center;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(247, 209, 162);
-    text-decoration: underline;
+    align-self: center;
 }
-
-.contenido{
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    color: bisque;
-    margin: 10px 5px 15px 5px;
-}
-.contenido1{
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    color: bisque;
-    margin: 5px 5px 5px 50px;
-}
-
-hr{
-    width: 70%;
-    height: 2px;
-    border: none;
-    background: blue;
-    margin: auto;
+.movimiento h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--titulo);
 }
