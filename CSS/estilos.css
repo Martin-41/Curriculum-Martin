@@ -2,7 +2,8 @@
     --fondo-1: #96ccee;
     --fondo-2: #3d667b;
     --fondo-3: #201e1c;
-    --subtitulo: #f7d1a2;
+    --subtitulo: #f29a2e;
+    --subtitulo2: #371f03;
     --titulo: #1a4154;
     --contenido: #ffe4c4;
 
@@ -20,21 +21,21 @@ header{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: initial;
     width: 100%;
     min-width: 320px;
-    height: 400px;
+    height: 440px;
     text-align: center;
-    background: linear-gradient(#96ccee, #3d667b, black);
+    background: linear-gradient(var(--fondo-1), var(--fondo-2), var(--fondo-3));
 }
 header img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-top: 15px;
     align-self: center;
     border-radius: 0 30% 0 30%;
 }
-.movimiento {
+header div {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -43,9 +44,89 @@ header img{
     text-align: center;
     align-self: center;
 }
-.movimiento h1 {
+header h1 {
+    position: sticky;
+    top: 0;
+    right: 0;
+    margin: auto;
+    width: 280px;
+    height: 30px;
+    border: 3px double var(--titulo);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px var(--fondo-3);
     font-size: 2.4rem;
     font-weight: bold;
-    line-height: 2.6rem;
+    line-height: 2.4rem;
     color: var(--titulo);
+}
+header h2 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: left;
+    color: var(--subtitulo);
+}
+.contenido {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-align: justify;
+    color: var(--contenido);
+}
+.contenido1 {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: justify;
+    color: var(--contenido);
+}
+main {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(var(--fondo-3), var(--fondo-2), var(--fondo-1))
+}
+.experiencia {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.subtitulo {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: auto;
+}
+main h2 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: right;
+    color: var(--subtitulo);
+}
+
+
+
+
+main ul {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: justify;
+    color: var(--contenido);
+}
+main li {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 0.8rem;
+    text-align: justify;
+    color: var(--contenido);
 }
