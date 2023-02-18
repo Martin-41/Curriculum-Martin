@@ -91,7 +91,7 @@ main {
 }
 .experiencia {
     width: 100%;
-    height: auto;
+    height: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -110,10 +110,27 @@ main h2 {
     text-align: right;
     color: var(--subtitulo);
 }
-
-
-
-
+.experiencia a { 
+    position: absolute;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 200px;
+    height: 30px;
+    background-color: var(--contenido);
+}
+.direccion {
+    top: 460px;
+}
+.celu {
+    top: 500px;
+}
+.correo {
+    top: 540px;
+}
+.linkedin {
+    top: 580px;
+}
 main ul {
     margin-top: 10px;
     font-size: 1.2rem;
